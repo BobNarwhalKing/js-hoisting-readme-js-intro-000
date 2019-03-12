@@ -18,10 +18,10 @@ function crazy() {
 function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
+  name = "Kristin";
 
 
   function sayMy() {
-    var name = "Kristin";
     console.log(name);
     sayMy();
 
