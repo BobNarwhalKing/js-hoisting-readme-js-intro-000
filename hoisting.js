@@ -3,27 +3,29 @@ function callMe() {
   console.log("and this is crazy..");
   console.log("but here's my number..");
   console.log("so call me");
-  var lyric = "maybe"
+  var lyric = "maybe";
   return lyric;
 }
 
 
 function crazy() {
+  // fix the code in here:
+  
+
   var thisIsCrazy = function (){
     console.log("hey!!!")
-      thisIsCrazy();
-    }
+    thisIsCrazy();
+  }
 }
 
 function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
   name = "Kristin";
-
+  
 
   function sayMy() {
     console.log(name);
-    sayMy();
-
+  sayMy();  
   }
 }
