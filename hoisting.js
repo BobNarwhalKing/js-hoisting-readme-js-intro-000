@@ -9,15 +9,15 @@ function callMe() {
 function crazy() {
   var thisIsCrazy = function (){
     console.log("hey!!!")
-    thisIsCrazy();
   }
+  thisIsCrazy();
 }
 function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
-  name = "Kristin";
   function sayMy() {
+    name = "Kristin";
     console.log(name);
-  sayMy();
   }
+  sayMy();
 }
